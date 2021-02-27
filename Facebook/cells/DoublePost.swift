@@ -36,6 +36,13 @@ struct DoublePost: View {
                 }
             }.padding(.leading, 10).padding(.trailing, 10)
             
+            HStack{
+                VStack(alignment: .leading){
+                    Text("🟢// Android bo’yicha bepul ochiq darsga marhamat \n")
+                    Text("Unda oxiriq...") + Text("See More").font(.system(size: 22)).foregroundColor(.gray)
+                }.frame(height: 100).padding(.leading, 20)
+                Spacer()
+            }
             // profile photo
                 HStack(spacing: 5){
                     Image(img_url1)
@@ -55,7 +62,8 @@ struct DoublePost: View {
                     .frame(width: 30, height: 30)
                 Text("9").font(.system(size: 22)).foregroundColor(.gray)
                 Spacer()
-            }.padding(.leading, 10)
+                Text("1 Share").font(.system(size: 22)).foregroundColor(.gray)
+            }.padding(.leading, 10).padding(.trailing, 10)
 
             HStack{}
                 .frame(height: 1)

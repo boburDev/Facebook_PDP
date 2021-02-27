@@ -96,9 +96,9 @@ struct Timeline: View {
                 
             // post items, update profile
             VStack{
-                PostItem(username: "Zokir Hamdamov", img_url: "image1")
+                PostItem(username: "Zokir Hamdamov", img_url: "python")
                 UpdateProfile(img_url: "image1", username: "Boburmirzo Negmatov")
-                DoublePost(img_url: "image1", img_url1: "image1", img_url2: "image1", username: "Rustam Axmedov")
+                DoublePost(img_url: "image1", img_url1: "ios", img_url2: "android", username: "PDP IT-Academy")
                 }
             }
         }

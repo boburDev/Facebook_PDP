@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PostItem: View {
     var username = "Boburmirzo"
-    var img_url = "image1"
+    var img_url = "python"
     var body: some View {
         VStack{
             // header
@@ -37,7 +37,7 @@ struct PostItem: View {
             }.padding(.leading, 10).padding(.trailing, 10).padding(.top, 10)
             
             // image
-            Image(img_url).resizable().frame(height: 450).scaledToFit()
+            Image(img_url).resizable().frame(height: 450)
             
             // like comment share and others
             HStack(spacing: 5){
